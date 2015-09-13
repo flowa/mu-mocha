@@ -1,0 +1,33 @@
+{
+  "name": "mu-mocha ",
+  "version": "0.0.1",
+  "description": "Reduces boilerplate code when using mocha and makes it easier to create data driven tests.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "examples": "mocha --compilers js:babel/register -- examples/*.js",
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:flowa/mu-mocha.git"
+  },
+  "keywords": [
+    "Mocha",
+    "data",
+    "driven",
+    "testing",
+    "bdd"
+  ],
+  "dependencies": {
+    "mocha": "^2.2.5",
+    "lodash": "^3.9.3"
+  },
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "chai": "^3.0.0"
+  },
+  "author": "Ari-Pekka Lappi",
+  "license": "MIT"
+}
