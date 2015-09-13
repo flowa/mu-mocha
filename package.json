@@ -1,6 +1,6 @@
 {
   "name": "mu-mocha ",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reduces boilerplate code when using mocha and makes it easier to write data driven tests.",
   "main": "lib/index.js",
   "scripts": {
