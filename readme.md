@@ -1,6 +1,3 @@
-**Currently this is not in npm. Plan is to move this soon to github and put code to npm.**
-
-
 # Reasoning
 
 Mu-mocha is a wrapper around Mocha-test runner. The main design principles are:
@@ -14,7 +11,7 @@ lest the same in all cases. Usually, test frameworks are not easy to extend
 so that testing different types of code would be as simple as possible. The most
 popular frameworks also lack simple and efficient way to write data driven tests.
 
-Mimimal Mocha makes data driven testing easier and allows you to write your own test builder
+Mu-mocha makes data driven testing easier and allows you to write your own test builder
 that makes testing of your code as simple as possible.
 
 
@@ -49,8 +46,7 @@ like Gulp, Grunt or WebPack. Internally Mu-mocha uses npm script for tests.
 
 ```
 npm install mocha --save-dev
-// This is not yet in NPM!!!
-npm install Mu-mocha  --save-dev
+npm install mu-mocha  --save-dev
 ```
 
 **Step 3.** Ensure you have configured Mocha to seek the test from correct place.

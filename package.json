@@ -1,7 +1,7 @@
 {
   "name": "mu-mocha ",
   "version": "0.0.1",
-  "description": "Reduces boilerplate code when using mocha and makes it easier to create data driven tests.",
+  "description": "Reduces boilerplate code when using mocha and makes it easier to write data driven tests.",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register",
@@ -15,8 +15,7 @@
   },
   "keywords": [
     "Mocha",
-    "data",
-    "driven",
+    "data-driven testing",
     "testing",
     "bdd"
   ],
