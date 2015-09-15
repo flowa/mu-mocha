@@ -131,7 +131,7 @@ test({
       "Test that true is true": () => expect(true).to.be.true,
       // Attribute values is object, but exception 1 applies -> it block
       "Test that 1,2,3 are truthy": {
-          data: [1,2,3];
+          data: [1,2,3],
           test: () => expect(1).to.be.ok
       }
     }
